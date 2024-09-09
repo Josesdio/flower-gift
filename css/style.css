@@ -10,10 +10,13 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(238, 130, 238);
+}
+span{
+    color: rgb(242, 214, 241) !important;
 }
 .greetings{
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 900;
 }
 .greetings > span{
@@ -22,7 +25,7 @@ body{
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow: 0 0 12px #e023b4, 0 0 50px #dc77d5, 0 0 100px #39c6d6;
     }
     10%, 90%{
         color: #111;
@@ -50,7 +53,7 @@ body{
 .button a{
     text-decoration: none;
     font-size: 1rem;
-    color: #111;
+    color: #fff;
 }
 
 @media screen and (max-width:574px){
